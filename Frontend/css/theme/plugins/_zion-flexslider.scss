@@ -1,0 +1,39 @@
+/*-----------------------------------------------
+|   Flexslider
+-----------------------------------------------*/
+.flexslider { border-width: 0 }
+.flex-direction-nav a.flex-prev,
+.flex-direction-nav a.flex-next {
+  color: $white;
+  font-size: 1.5rem;
+  &:before {
+    display: none;
+  }
+}
+.flex-direction-nav .indicator-arrow {
+  height: 1.125rem;
+  width: 1.125rem
+}
+
+/*-----------------------------------------------
+|   Indicator
+-----------------------------------------------*/
+.indicator-arrow {
+  display: block;
+  position: absolute;
+  left: 50%;
+  height: 0.75rem;
+  width: 0.75rem;
+  border-left: ($border-width * 2) solid $white;
+  border-top: ($border-width * 2) solid $white;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.indicator-arrow-left {
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.indicator-arrow-right {
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(135deg);
+}
