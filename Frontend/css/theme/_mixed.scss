@@ -1,0 +1,87 @@
+/*-----------------------------------------------
+|   Object fit and Z-index
+-----------------------------------------------*/
+.fit-cover{ object-fit: cover; }
+.z-index-1{ z-index: 1; }
+
+/*-----------------------------------------------
+|   Zanimation
+-----------------------------------------------*/
+*[data-zanim-trigger]{ opacity: 0; }
+
+/*-----------------------------------------------
+|   Sidebar
+-----------------------------------------------*/
+.sticky-sidebar{ top: 85px; }
+
+/*-----------------------------------------------
+|   Custom circle
+-----------------------------------------------*/
+.circle-dashed{
+  border: 1px dashed $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/*-----------------------------------------------
+|   Miscellaneous
+-----------------------------------------------*/
+@include hover-focus{
+  .hover-text-decoration-none{
+    text-decoration: none;
+  }
+}
+.resize-none{ resize: none; }
+
+/*-----------------------------------------------
+|   line-height
+-----------------------------------------------*/
+.lh-3{
+  line-height: 30px;
+}
+.lh-2{
+  line-height: 20px;
+}
+.lh-1{
+  line-height: 10px;
+}
+/*-----------------------------------------------
+|   Search box
+-----------------------------------------------*/
+.input-with-icon{
+  position: relative;
+  .icon-input{
+    padding-left: 2.2rem;
+  }
+  .icon{
+    z-index: 1020;
+    top: 50%;
+    left: 0.9rem;
+    transform: translateY(-48%);
+  }
+}
+/*-----------------------------------------------
+|   flexslider nav icon
+-----------------------------------------------*/
+.indicator-arrow {
+  border-left: 2px solid #5e6e82 !important;
+  border-top: 2px solid #5e6e82 !important;
+}
+/*-----------------------------------------------
+|   Down-arrow
+-----------------------------------------------*/
+.godown-arrow {
+  position: absolute;
+  top: 80%;
+  display: block;
+  left: 53%;
+  transform: translate3d(-50%,-50%,0)
+}
+
+ 
+  
+
