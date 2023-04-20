@@ -1,0 +1,36 @@
+@import '../../Styles/variables.scss';
+.options-div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 6%;
+    margin-left: 10px;
+}
+
+.log-away{
+    padding-top: -5%;
+    margin-right: 20px;
+}
+
+.add-fav-activities{
+    padding-top: 3%;
+
+}
+    
+
+.divider{
+    border: 1px solid $primary-brown;
+    opacity: 0.2;
+    margin-top: 15%;
+
+}
+
+.favorite-activities{
+    margin-top: 40px;
+    background-color: $primary-beige;
+}
+
+.journal-body{
+    background-color: $primary-beige;
+}
+
