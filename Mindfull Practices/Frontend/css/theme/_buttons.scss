@@ -1,0 +1,18 @@
+.btn { 
+  text-transform: uppercase;
+  padding: 0.3125rem 3.25rem;
+}
+/*-----------------------------------------------
+|   Social Outline Buttons
+-----------------------------------------------*/
+.btn-outline-facebook{ @include button-outline-variant($facebook) }
+.btn-outline-twitter { @include button-outline-variant($twitter) }
+.btn-outline-google-plus { @include button-outline-variant($google-plus) }
+
+/*-----------------------------------------------
+|    Outline Buttons
+-----------------------------------------------*/
+[class*="btn-outline-"] {
+  border-radius:0.25rem;
+  border: 2px solid;
+}
