@@ -4,11 +4,17 @@ Mindful Practices is a MERN (MongoDB, Express, React, Node.js) application that 
 
                                                                  **Features**
 User authentication: Users can register and login to access the app's features.
+
 Activity tracking: Users can track their progress on various activities and view them on the dashboard.
+
 Event registration: Users can search for yoga-related events and register for them.
+
 Weather feature: Users can check the real-time weather conditions for their location.
+
 Yoga API integration: The app includes an API for yoga poses and categories.
+
 Spotify API integration: Users can listen to calming music while practicing mindfulness.
+
 Profile editing: Users can edit their personal information, including their profile picture.
 
                                                                    **Workflow**
