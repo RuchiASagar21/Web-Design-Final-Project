@@ -16,7 +16,7 @@ const activitySchema = new mongoose.Schema({
 
     preferredValueUnit:{
         type: String,
-        default: 'Miles',
+        default: 'Milestone',
         required: "preferredValueUnit is required"
     },
 

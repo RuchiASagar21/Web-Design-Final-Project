@@ -1,7 +1,7 @@
 {
-  "name": "flex-appeal-server",
+  "name": "Mindful-practices-server",
   "version": "1.0.0",
-  "description": "Final Project =>  Flex Appeal",
+  "description": "Final Project =>  Mindful-practices",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/neu-mis-info6150-spring-2022/final-project-flex-appeal.git"
   },
-  "author": "Ruthwik, Siddhartha, Stuti, Varun",
+  "author": "Sindhu, Ruchi, Kavya, Harsha, Gurunadh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/neu-mis-info6150-spring-2022/final-project-flex-appeal/issues"
