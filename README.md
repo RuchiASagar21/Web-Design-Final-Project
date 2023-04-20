@@ -1,8 +1,8 @@
-                                                            **Mindful Practices App**
+                                                      **Mindful Practices App**
                                                                    
 Mindful Practices is a MERN (MongoDB, Express, React, Node.js) application that helps users track their progress on various activities such as reading, yoga, meditation, dancing, and water consumption. Users can also search for events related to yoga and register for them. Additionally, the app includes a weather feature that allows users to check the real-time weather conditions for their location. The app also integrates Spotify's API for users to listen to calming music while practicing mindfulness.
 
-                                                                 **Features**
+                                                          **Features**
 User authentication: Users can register and login to access the app's features.
 
 Activity tracking: Users can track their progress on various activities and view them on the dashboard.
@@ -17,7 +17,7 @@ Spotify API integration: Users can listen to calming music while practicing mind
 
 Profile editing: Users can edit their personal information, including their profile picture.
 
-                                                                   **Workflow**
+                                                           **Workflow**
 Register and login: Users must register and log in to access the app's features.
 
 Dashboard: After logging in, users can view their activities and track their progress.
@@ -34,11 +34,11 @@ Music Tab: Users can search for their favorite artists and listen to their songs
 
 Profile Tab: Users can edit their personal information and add a profile picture.
 
-                                                                   **Admin Role**
+                                                          **Admin Role**
 The app includes an admin role with permissions to add, update, or delete activity and user data from the MongoDB database. The admin does not have a GUI.
 
                                                                        
-                                                                **Technologies Used**
+                                                      **Technologies Used**
 MongoDB: A NoSQL database used to store data.
 
 Express: A web application framework used to build the app's backend.
@@ -59,7 +59,7 @@ JWT: A JSON Web Token used for user authentication.
 
 Bcrypt: A password hashing function used to store user passwords securely.
 
-                                                                **Getting Started**
+                                                      **Getting Started**
 To get started with the app, follow these steps:
 
 Clone the repository.
