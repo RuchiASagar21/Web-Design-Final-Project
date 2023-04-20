@@ -1,0 +1,53 @@
+
+@import '../../Styles/_variables.scss';
+
+.main-layout-container {
+    height: 100%;
+
+    .header-wrapper {
+        width: 100%;
+        position: sticky;
+        top: 10;
+        background-color: $primary-green;
+        color: $white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 20vh;
+        z-index: 99;
+
+        .header-nav {
+            min-width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a {
+                color: $primary-white;
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+            .signout-btn {
+                background: none;
+                color: $white;
+                background-color: $primary-green;
+                border: 1px solid $primary-beige;
+                border-color: $blue;
+                border-radius: 100px;
+                border-width: 3px;
+                padding: 5px 40px;
+                margin: 40px 20px 40px 20px;
+            }
+            .notifications-btn{
+                color: $blue;
+                padding: 30;
+            }
+        }
+
+        .header-logo {
+            width: 20px;
+            margin-left: 80px;
+            margin-bottom: 25px;
+        }
+    }
+    
+}
