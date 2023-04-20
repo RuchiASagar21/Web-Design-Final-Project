@@ -34,12 +34,12 @@ const [tempActivityState, setTempActivityState] = useState({...props.customModal
       <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
       <div>
         <FormControl sx={{ m: 1 }}>
-          <InputLabel htmlFor="outlined-adornment-amount">Total Value</InputLabel>
+          <InputLabel htmlFor="outlined-adornment-amount">Milestone</InputLabel>
           <OutlinedInput
             id="outlined-adornment-amount"
             value={selectValue}
             onChange={(event)=>setSelectedValue(event.target.value)}
-            endAdornment={<InputAdornment position="end">Unit</InputAdornment>}
+            endAdornment={<InputAdornment position="end"></InputAdornment>}
             label="Amount"
             style={{width: 400, borderColor: 'primary.main'}}
           />
@@ -51,7 +51,7 @@ const [tempActivityState, setTempActivityState] = useState({...props.customModal
             id="outlined-adornment-amount"
             //value={values.amount}
             onChange={(event) => setSelectedDuration(event.target.value)}
-            endAdornment={<InputAdornment position="end">Time</InputAdornment>}
+            endAdornment={<InputAdornment position="end"></InputAdornment>}
             label="Amount"
             style={{width: 400}}
           />

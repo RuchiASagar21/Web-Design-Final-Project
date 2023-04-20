@@ -53,11 +53,9 @@ const Dashboard = (props) => {
     
     return(
     <div id="dashboard-main" className='dashboard-main'> 
-        <DashboardSection title="JOURNALING YOUR ACTIVITIES" selector={props.exercise.length>0?true:false} onClickOfTimeline={onClickOfExerciseTimeline} content={
+        <DashboardSection title="YOUR ACTIVITIES" selector={props.exercise.length>0?true:false} onClickOfTimeline={onClickOfExerciseTimeline} content={
             props.exercise.length<1? 
-
-            
-            <MessageDisplay link={"/journal"} message={[<u>Click here</u>," to start your mindful journey"]} />:
+            <MessageDisplay link={"/journal"} message={[<u>Click here</u>," to start your mindful journey"]}/>:
             <ActivitySlider activities={props.exercise} loader={loader} category={"exercise"}/>
         }/>
 
@@ -65,7 +63,7 @@ const Dashboard = (props) => {
 
         <DashboardSection title="ACTIVITY TRACKER" selector={props.leaderboard.length>0?true:false} onClickOfTimeline={onClickOfLeaderboardTimeline} content={
             props.leaderboard.length<1?
-            <MessageDisplay link={"/journal"} message={[<u>Start</u>, "start your mindful practice to see where you stand"]}/>:
+            <MessageDisplay link={"/journal"} message={[<u>Click here</u>, " and start your mindful practice to see where you stand"]}/>:
           <Leaderboard activities={props.leaderboard} loader={loader} /> }/>
 
         <Grid className='divider'></Grid>
