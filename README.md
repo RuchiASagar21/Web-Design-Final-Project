@@ -2,7 +2,7 @@
                                                                    
 Mindful Practices is a MERN (MongoDB, Express, React, Node.js) application that helps users track their progress on various activities such as reading, yoga, meditation, dancing, and water consumption. Users can also search for events related to yoga and register for them. Additionally, the app includes a weather feature that allows users to check the real-time weather conditions for their location. The app also integrates Spotify's API for users to listen to calming music while practicing mindfulness.
 
-                                                                    **Features**
+                                                                 **Features**
 User authentication: Users can register and login to access the app's features.
 Activity tracking: Users can track their progress on various activities and view them on the dashboard.
 Event registration: Users can search for yoga-related events and register for them.
@@ -11,7 +11,7 @@ Yoga API integration: The app includes an API for yoga poses and categories.
 Spotify API integration: Users can listen to calming music while practicing mindfulness.
 Profile editing: Users can edit their personal information, including their profile picture.
 
-                                                                     **Workflow**
+                                                                   **Workflow**
 Register and login: Users must register and log in to access the app's features.
 Dashboard: After logging in, users can view their activities and track their progress.
 Journal Tab: Users can add their favorite activities from the Journal tab activity list. After adding their favorite activities, they will appear in the favorite activities of the Journal Tab. From there, users can add their activity details and save them to track their progress.
@@ -21,11 +21,11 @@ Yoga Poses Tab: Users can view a list of yoga categories and poses.
 Music Tab: Users can search for their favorite artists and listen to their songs via Spotify.
 Profile Tab: Users can edit their personal information and add a profile picture.
 
-                                                                     **Admin Role**
+                                                                   **Admin Role**
 The app includes an admin role with permissions to add, update, or delete activity and user data from the MongoDB database. The admin does not have a GUI.
 
                                                                        
-                                                                      **Technologies Used**
+                                                                **Technologies Used**
 MongoDB: A NoSQL database used to store data.
 Express: A web application framework used to build the app's backend.
 React: A JavaScript library used to build the app's frontend.
@@ -37,7 +37,7 @@ Bootstrap: A CSS framework used for styling.
 JWT: A JSON Web Token used for user authentication.
 Bcrypt: A password hashing function used to store user passwords securely.
 
-                                                                        **Getting Started**
+                                                                **Getting Started**
 To get started with the app, follow these steps:
 
 Clone the repository.
