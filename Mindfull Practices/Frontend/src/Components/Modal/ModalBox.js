@@ -43,8 +43,9 @@ const { modalOpen, modalClickHandler, customModalProps} = props;
       case ModalType.FOOD_JOURNAL:
         return "Add your calorie intake for the day"
       case ModalType.SLEEP_WATER_JOURNAL:
+        return `Add the ${customModalProps?.name ? customModalProps?.name : "" } intake for the day`
       case ModalType.ACTIVITY_MODAL:
-        return `Add the ${customModalProps?.name ? customModalProps?.name : "" } stats for the day`
+        return `Add the ${customModalProps?.name ? customModalProps?.name : "" } activity for the day`
       case ModalType.ACTIVITY_OPTIONS_MODAL:
         return "Select your favorite activities"
       default:

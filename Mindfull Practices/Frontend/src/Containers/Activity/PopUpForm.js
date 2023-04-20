@@ -71,7 +71,7 @@ export default function PopUpDialogs() {
         open={open}
       >
         <PopUpDialogTitle className="popup-dialog-title" onClose={handleClose}>
-          Add Stat
+          Add here
         </PopUpDialogTitle>
 
         <DialogContent className='popup-dialog-content'>

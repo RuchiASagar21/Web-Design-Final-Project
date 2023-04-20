@@ -1,5 +1,5 @@
-const securityQuestions = ["What is your mother's maiden name?", 
-                            "What was/is your first car?",
+const securityQuestions = ["What was/is your first car?", 
+                            "What is your mother's maiden name??",
                             "What elementary school did you attend?",
                             "What is the name of the city/town where you were born?",
                             "What is your favorite food?",

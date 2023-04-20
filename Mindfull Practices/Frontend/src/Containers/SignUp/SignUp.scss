@@ -11,26 +11,26 @@
    
     .left-container{
 
-        @include loginLeftContainer(1,1,2,2,grid,$primary-red);
+        @include loginLeftContainer(1,1,2,2,grid,$primary-white);
 
         .left-inner{
 
-            @include loginLeftInnerContainer(3, 2, 2, 4, 25px, $primary-brown, grid);
+            @include loginLeftInnerContainer(3, 2, 2, 4, 25px, $primary-white, grid);
 
             .logo-container{
 
-                @include logoContainer(1, 2, 2, 2, "./../../Assets/Images/fa-logo-beige.png", 210px, no-repeat, center);
+                @include logoContainer(1, 2, 2, 2, "./../../Assets/Images/green.png", 210px, no-repeat, center);
             }
         }
     }
 
     .right-container{
 
-        @include loginRightContainer(3, 3, 1, 2, grid, $primary-beige-opacity, 100%);
+        @include loginRightContainer(3, 3, 1, 2, grid, $primary-white, 100%);
 
         .right-inner{
 
-            @include loginRightInnerContainer(1,3,2,4,25px,$primary-brown, left);
+            @include loginRightInnerContainer(1,3,2,4,25px,$primary-white, left);
 
             display: grid;
             grid-template-columns:  repeat(2, 1fr);;
@@ -40,10 +40,10 @@
                 grid-row : 2 / span 11;
                 h1{
                     text-align: center;
-                    color: $primary-red;
+                    color: $primary-brown;
                 }
                 p{
-                    color: $primary-red;
+                    color: $primary-green;
                 }
                 .userName_email_Container{
                     display: grid;
@@ -62,7 +62,7 @@
                         display: inline-block;
                         font-size: 0.8rem;
                         margin-bottom: 6px;
-                        color: $primary-red;
+                        color: $primary-green;
                         font-family: 'semi bold';
                         font-size: medium;
                     }
@@ -73,8 +73,8 @@
                         border-radius: 2px;
                         height: 25px;
                         width: 100%;
-                        border: 2px solid $primary-red;
-                        background-color: $primary-beige-opacity;
+                        border: 2px solid $primary-green;
+                        background-color: $primary-white;
                         font-family: 'semi bold';
                         color: $primary-brown;
                         font-size: medium;
@@ -105,13 +105,13 @@
                 .dob_container{
                     @extend .userName_Container; 
                     div{
-                        border: $primary-red;
+                        border: $primary-green;
                     }
                 }
                 
                 .radioButtonsContainer{
                     label{
-                        color: $primary-red;
+                        color: $primary-green;
                         font-family: 'semi bold';
                     }
                     padding-top: 35px;
@@ -140,7 +140,7 @@
                         display: inline-block;
                         font-size: 0.8rem;
                         margin-bottom: 6px;
-                        color: $primary-red;
+                        color: $primary-green;
                         font-family: 'semi bold';
                         font-size: medium;
                     }
@@ -151,12 +151,12 @@
                         border-radius: 2px;
                         height: 25px;
                         width: 550px;
-                        border: 2px solid $primary-red;
-                        color: $primary-beige-opacity;
+                        border: 2px solid $primary-green;
+                        color: $primary-white;
                         font-family: 'semi bold';
                     }
                     div{
-                        color: $primary-red;
+                        color: $primary-green;
                     }
                 }
                 
@@ -169,7 +169,7 @@
                         display: inline-block;
                         font-size: 0.8rem;
                         margin-bottom: 6px;
-                        color: $primary-red;
+                        color: $primary-green;
                         
                     }
                     input{
@@ -180,8 +180,8 @@
                         height: 25px;
                         width: 570px;
                         border: none;
-                        border: 2px solid $primary-red;
-                        background-color: $primary-beige-opacity;
+                        border: 2px solid $primary-green;
+                        background-color: $primary-white;
                         font-family: 'semi bold';
                         font-size: medium;
                         color: $primary-brown;
@@ -195,14 +195,14 @@
                     @extend .questionContainer;
                     text-align: center;
                     button{
-                        @include styleButton($primary-red, $primary-beige, 30px, 350px, 5px);
-                        border-color: $primary-red;
+                        @include styleButton($primary-green, $primary-white, 30px, 350px, 5px);
+                        border-color: $primary-green;
                         cursor: pointer;
                         font-size: medium;
                         font-family: 'semi bold';
                     }
                     h4, a{
-                        color: $primary-red;
+                        color: $primary-green;
                     }
                     
                 }

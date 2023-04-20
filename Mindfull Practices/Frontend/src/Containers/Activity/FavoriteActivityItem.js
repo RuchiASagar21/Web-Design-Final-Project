@@ -31,6 +31,7 @@ const FavoriteActivityItem = (props) => {
     const [modalType, setModalType] = useState(false);
 
     const onModalHandleClose = (modelType) => {
+        debugger
         setModalOpen(!isModalOpen)
         setModalType(modelType)
     }
