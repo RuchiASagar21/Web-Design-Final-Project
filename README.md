@@ -67,3 +67,14 @@ Clone the repository.
 Install the necessary dependencies by running npm install in the root directory and the client, server directory.
 
 Run the app with the command npm start simultaneously in client and server.
+
+                                                        **Contributors**
+Sindhu Srinivas Prasad - 002920301, srinivasprasad.s@northeastern.edu
+
+Kavyashree Upendra - 002921251, upendra.k@northeastern.edu
+
+Harsha Vardhan Rao Patimidi - 002743125, patimidi.h@northeastern.edu
+
+Sai Gurunadh Konkapaka - 002742269, konkapaka.s@northeastern.edu
+
+Ruchi Anand Sagar - 002655548, sagar.ru@northeastern.edu
